@@ -12,10 +12,11 @@ function App() {
   return (
     <div className="App">
       <PrimeReactProvider value={value}>
-        <h1 className="text-[150px] underline font">
-          Hello world!
+        <h1 className="text-[150px] my-[150px] underline font">
+          Jeg siger hey!
         </h1>
-        <h1>Inside of PrimeReactProvider</h1>
+        <p>Jeg er sku her og hvad med dig? Det her er en test med Tailwind</p>
+        <h1>God morgen alle sammen tekst</h1>
         <Button className="p-ripple" label="Submit">
           <Ripple/>
         </Button>
