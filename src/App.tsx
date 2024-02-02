@@ -12,7 +12,10 @@ function App() {
   return (
     <div className="App">
       <PrimeReactProvider value={value}>
-        <h1 className="text-[150px] my-[150px] underline font">
+        <div className="px-[15px] bg-red-200 container m-auto py-5">
+          Jeg er sku en Container
+        </div>
+        <h1 className="text-[15px] my-[150px] underline font">
           Jeg siger hey!
         </h1>
         <p>Jeg er sku her og hvad med dig? Det her er en test med Tailwind</p>

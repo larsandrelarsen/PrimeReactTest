@@ -10,7 +10,17 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1320px',
     },
-    extend: {},
+    extend: {
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '1rem',
+          lg: '1rem',
+          xl: '1rem',
+          '2xl': '1rem',
+        },
+      },
+    },
   },
   plugins: [],
 }
