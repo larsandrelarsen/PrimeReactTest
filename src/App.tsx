@@ -3,7 +3,6 @@ import { PrimeReactProvider } from 'primereact/api';
 import { Button } from 'primereact/button';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import { Ripple } from 'primereact/ripple';
-import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 function App() {
   const value = {
@@ -13,6 +12,9 @@ function App() {
   return (
     <div className="App">
       <PrimeReactProvider value={value}>
+        <h1 className="text-[15px]">
+          Hello world!
+        </h1>
         <h1>Inside of PrimeReactProvider</h1>
         <Button className="p-ripple" label="Submit">
           <Ripple />
