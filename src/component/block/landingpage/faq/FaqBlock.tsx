@@ -9,7 +9,7 @@ const FaqBlock = () => {
     <div className="container mx-auto text-center mt-[45px]">
       <h3>How does WORAGE work?</h3>
       <p>Advertise your storage space now to earn money.</p>
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 mt-[45px] align-items-center">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 mt-[45px] items-center">
         <div>
           <Button label="Register free of charge">
             <Ripple/>

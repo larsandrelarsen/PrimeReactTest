@@ -1,7 +1,29 @@
+/* Button */
+
+.p-button {
+  @apply bg-orange-900 py-[14px] text-[16px] text-white px-[14px] rounded;
+}
+
 .p-button.p-button-secondary {
   @apply bg-pink-900;
 }
 
-.p-button {
-  @apply bg-orange-900;
+
+/* Accordion */
+.p-accordion-header svg {
+  @apply text-pink-900;
 }
+
+.p-accordion-header {
+  @apply text-start;
+}
+
+.p-accordion-header a {
+  @apply h-[50px] gap-[15px] text-[16px] text-grey-900;
+}
+
+.p-accordion-content {
+  @apply text-start;
+}
+
+/* Input */

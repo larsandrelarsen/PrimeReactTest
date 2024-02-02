@@ -18,7 +18,9 @@ module.exports = {
         pink : {
           '900': '#8D30D3',
         },
-        darkblue: '#070720',
+        grey: {
+          '900': '#585858'
+        },
         navActive: '#99f6e4',
       },
       backgroundImage: theme => ({
