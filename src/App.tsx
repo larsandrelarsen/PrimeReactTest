@@ -3,6 +3,9 @@ import { PrimeReactProvider } from 'primereact/api';
 import { Button } from 'primereact/button';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import { Ripple } from 'primereact/ripple';
+import TopNav from './component/nav/TopNav';
+import Hero from './component/hero/Hero';
+import EffectBlock from './component/block/landingpage/effect/EffectBlock';
 
 function App() {
   const value = {
@@ -12,17 +15,9 @@ function App() {
   return (
     <div className="App">
       <PrimeReactProvider value={value}>
-        <div className="px-[15px] bg-red-200 container m-auto py-5">
-          Jeg er sku en Container
-        </div>
-        <h1 className="text-[15px] my-[150px] underline font">
-          Jeg siger hey!
-        </h1>
-        <p>Jeg er sku her og hvad med dig? Det her er en test med Tailwind</p>
-        <h1>God morgen alle sammen tekst</h1>
-        <Button className="p-ripple" label="Submit">
-          <Ripple/>
-        </Button>
+        <TopNav />
+        <Hero />
+        <EffectBlock />
         <Accordion activeIndex={0}>
           <AccordionTab header="Header I">
             <p className="m-0">

@@ -11,6 +11,16 @@ module.exports = {
       '2xl': '1320px',
     },
     extend: {
+      colors: {
+        orange: {
+          '900': '#FF631C',
+        },
+        darkblue: '#070720',
+        navActive: '#99f6e4',
+      },
+      backgroundImage: theme => ({
+        'hero-pattern': 'url("/hero.jpg")',
+      }),
       container: {
         padding: {
           DEFAULT: '1rem',
