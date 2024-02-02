@@ -5,6 +5,7 @@ import FaqBlock from './component/block/landingpage/faq/FaqBlock';
 import TopNav from './component/nav/TopNav';
 import Hero from './component/block/landingpage/hero/Hero';
 import FooterHero from './component/block/landingpage/hero/FooterHero';
+import FooterNav from './component/nav/FooterNav';
 
 function App() {
   const value = {
@@ -19,6 +20,7 @@ function App() {
         <EffectBlock />
         <FaqBlock />
         <FooterHero />
+        <FooterNav />
       </PrimeReactProvider>
     </div>
   );
