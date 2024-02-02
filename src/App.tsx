@@ -6,18 +6,18 @@ import { Ripple } from 'primereact/ripple';
 
 function App() {
   const value = {
-    ripple: true
+    ripple: true,
   };
 
   return (
     <div className="App">
       <PrimeReactProvider value={value}>
-        <h1 className="text-[15px]">
+        <h1 className="text-[150px] underline font">
           Hello world!
         </h1>
         <h1>Inside of PrimeReactProvider</h1>
         <Button className="p-ripple" label="Submit">
-          <Ripple />
+          <Ripple/>
         </Button>
         <Accordion activeIndex={0}>
           <AccordionTab header="Header I">
