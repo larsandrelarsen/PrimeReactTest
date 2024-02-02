@@ -4,7 +4,7 @@ import { Ripple } from 'primereact/ripple';
 
 function TopNav() {
   return (
-    <nav className="flex container mx-auto items-center justify-between flex-wrap bg-teal-500 p-6">
+    <nav className="flex container mx-auto items-center justify-between flex-wrap bg-teal-500 py-[15px]">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img alt="logo" src="/app/brand.png"/>
       </div>
