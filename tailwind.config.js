@@ -15,6 +15,9 @@ module.exports = {
         orange: {
           '900': '#FF631C',
         },
+        pink : {
+          '900': '#8D30D3',
+        },
         darkblue: '#070720',
         navActive: '#99f6e4',
       },

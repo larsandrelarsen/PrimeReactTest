@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBarArea from '../search/SearchBarArea';
+import SearchBarArea from '../../../search/SearchBarArea';
 
 function Hero() {
   return (

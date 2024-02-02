@@ -23,7 +23,7 @@ function EffectBlock() {
       </div>
       <div className="mt-[45px]">
         <Button label="Register now">
-          <Ripple />
+          <Ripple/>
         </Button>
       </div>
     </div>
