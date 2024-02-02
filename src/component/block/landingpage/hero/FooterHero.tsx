@@ -3,7 +3,7 @@ import SearchBarArea from '../../../search/SearchBarArea';
 import { Button } from 'primereact/button';
 import { Ripple } from 'primereact/ripple';
 
-function FooterHero() {
+const FooterHero = () => {
   return (
     <div className="bg-hero-pattern">
       <div className="container mx-auto text-center py-[150px]">

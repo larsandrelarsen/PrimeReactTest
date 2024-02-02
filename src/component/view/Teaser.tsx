@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Teaser(props: any) {
+const Teaser = ({text}: {
+  text: string | number;
+}) => {
   return (
     <div className="ps-[2px] font-bold border-s-[5px] border-pink-900">
-      <div className="py-[25px]">{props.text}</div>
+      <div className="py-[25px]">{text}</div>
     </div>
   );
 }

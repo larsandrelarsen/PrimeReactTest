@@ -4,7 +4,7 @@ import { Ripple } from 'primereact/ripple';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import Teaser from '../../../view/Teaser';
 
-function FaqBlock() {
+const FaqBlock = () => {
   return (
     <div className="container mx-auto text-center mt-[45px]">
       <h3>How does WORAGE work?</h3>

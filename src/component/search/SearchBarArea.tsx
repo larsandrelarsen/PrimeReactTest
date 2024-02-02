@@ -4,7 +4,7 @@ import { InputNumber } from 'primereact/inputnumber';
 import { Button } from 'primereact/button';
 import { Ripple } from 'primereact/ripple';
 
-function SearchBarArea() {
+const SearchBarArea = () => {
   return (
     <div className="bg-white rounded inline-flex py-[35px] px-[25px]">
       <div className="p-inputgroup flex-1">

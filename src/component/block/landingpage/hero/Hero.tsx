@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBarArea from '../../../search/SearchBarArea';
 
-function Hero() {
+const Hero = () => {
   return (
     <div className="bg-hero-pattern">
       <div className="container mx-auto py-[150px]">

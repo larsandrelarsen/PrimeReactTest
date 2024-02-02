@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'primereact/button';
 import { Ripple } from 'primereact/ripple';
 
-function TopNav() {
+const TopNav = () => {
   return (
     <nav className="flex container mx-auto items-center justify-between flex-wrap bg-teal-500 py-[15px]">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
