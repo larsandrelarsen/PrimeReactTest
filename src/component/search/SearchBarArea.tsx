@@ -6,7 +6,7 @@ import { Ripple } from 'primereact/ripple';
 
 function SearchBarArea() {
   return (
-    <div className="bg-white inline-flex py-[35px] px-[25px]">
+    <div className="bg-white rounded inline-flex py-[35px] px-[25px]">
       <div className="p-inputgroup flex-1">
     <span className="p-inputgroup-addon">
         <i className="pi pi-user"></i>
