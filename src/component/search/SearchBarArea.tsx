@@ -26,7 +26,7 @@ function SearchBarArea() {
       </div>
 
       <div className="flex">
-        <Button label="Advertise Area">
+        <Button label="Search Area">
           <Ripple />
         </Button>
       </div>
