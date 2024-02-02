@@ -1,0 +1,7 @@
+.p-button.p-button-secondary {
+  @apply bg-pink-900;
+}
+
+.p-button {
+  @apply bg-orange-900;
+}

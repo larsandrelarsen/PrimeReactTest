@@ -28,8 +28,10 @@ const TopNav = () => {
           </a>
         </div>
         <div>
-          <Button>
-            Advertise Area
+          <Button label="Advertise Area">
+            <Ripple />
+          </Button>
+          <Button label="Advertise Area" severity="secondary">
             <Ripple />
           </Button>
         </div>
